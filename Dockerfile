@@ -11,7 +11,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
      vim.tiny wget curl sudo net-tools pwgen \
      git-core logrotate software-properties-common && \
-   locale-gen en_US en_US.UTF-8 && \
+     locale-gen en_US en_US.UTF-8 && \
    apt-get clean && \
    rm -rf /var/lib/apt/lists/*
 
